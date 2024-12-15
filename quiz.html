@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Тест о Гарри Поттере</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Гарри Поттер</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="quiz.html">Тест</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Тест на знание Гарри Поттера</h1>
+        <form id="quizForm">
+            <div>
+                <label>1. Какой факультет посещал Гарри Поттер?</label>
+                <input type="text" name="question1" required>
+            </div>
+            <div>
+                <label>2. Как зовут кошку Гермионы?</label>
+                <input type="text" name="question2" required>
+            </div>
+            <button type="submit">Проверить ответы</button>
+        </form>
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p>Контакты: info@harrypotter.com</p>
+        <p>Социальные сети: Facebook, Instagram</p>
+        <p>2024</p>
+    </footer>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
